@@ -55,7 +55,7 @@
  -moz-border-radius: 20px;
  -webkit-border-radius: 20px;
  margin-bottom: 40px;
- background-color: rgba(255,255,255, 0.07);
+ background-color: rgba(0,0,0, 0.2);
  cursor: pointer;
  -webkit-transition: all 0.5s ease-in-out;
  -moz-transition: all 0.5s ease-in-out;
@@ -210,6 +210,8 @@ h3,h5{
 }
 .bg-fechas{
   background-image: url('../img/fechas.jpg');
+  background-repeat: no-repeat;
+   background-size: cover;
 }
 
 .bg-aviso {
